@@ -167,6 +167,10 @@
     <Compile Include="Migrations\202102061920344_UpdateExistingMembershipTypeRecords.designer.cs">
       <DependentUpon>202102061920344_UpdateExistingMembershipTypeRecords.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202102061945125_AddedNullableBirthDayToMembershipType.cs" />
+    <Compile Include="Migrations\202102061945125_AddedNullableBirthDayToMembershipType.designer.cs">
+      <DependentUpon>202102061945125_AddedNullableBirthDayToMembershipType.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Customer.cs" />
     <Compile Include="Models\IdentityModels.cs" />
@@ -255,6 +259,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202102061920344_UpdateExistingMembershipTypeRecords.resx">
       <DependentUpon>202102061920344_UpdateExistingMembershipTypeRecords.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202102061945125_AddedNullableBirthDayToMembershipType.resx">
+      <DependentUpon>202102061945125_AddedNullableBirthDayToMembershipType.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
