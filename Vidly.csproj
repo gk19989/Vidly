@@ -171,8 +171,29 @@
     <Compile Include="Migrations\202102061945125_AddedNullableBirthDayToMembershipType.designer.cs">
       <DependentUpon>202102061945125_AddedNullableBirthDayToMembershipType.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202102070518275_AddedColumnsToMovie.cs" />
+    <Compile Include="Migrations\202102070518275_AddedColumnsToMovie.designer.cs">
+      <DependentUpon>202102070518275_AddedColumnsToMovie.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202102070603369_AddGenre.cs" />
+    <Compile Include="Migrations\202102070603369_AddGenre.designer.cs">
+      <DependentUpon>202102070603369_AddGenre.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202102070605571_PopulateGenre.cs" />
+    <Compile Include="Migrations\202102070605571_PopulateGenre.designer.cs">
+      <DependentUpon>202102070605571_PopulateGenre.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202102070750150_RectifiedMistakeInMovie.cs" />
+    <Compile Include="Migrations\202102070750150_RectifiedMistakeInMovie.designer.cs">
+      <DependentUpon>202102070750150_RectifiedMistakeInMovie.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202102070826319_PopulateMovie.cs" />
+    <Compile Include="Migrations\202102070826319_PopulateMovie.designer.cs">
+      <DependentUpon>202102070826319_PopulateMovie.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Customer.cs" />
+    <Compile Include="Models\Genre.cs" />
     <Compile Include="Models\IdentityModels.cs" />
     <Compile Include="Models\MembershipType.cs" />
     <Compile Include="Models\Movie.cs" />
@@ -220,6 +241,7 @@
     <Content Include="Views\Shared\_NavBar.cshtml" />
     <None Include="Views\Customers\Details.cshtml" />
     <None Include="Views\Customers\Index.cshtml" />
+    <Content Include="Views\Movies\Details.cshtml" />
     <None Include="Views\Movies\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
@@ -262,6 +284,21 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202102061945125_AddedNullableBirthDayToMembershipType.resx">
       <DependentUpon>202102061945125_AddedNullableBirthDayToMembershipType.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202102070518275_AddedColumnsToMovie.resx">
+      <DependentUpon>202102070518275_AddedColumnsToMovie.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202102070603369_AddGenre.resx">
+      <DependentUpon>202102070603369_AddGenre.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202102070605571_PopulateGenre.resx">
+      <DependentUpon>202102070605571_PopulateGenre.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202102070750150_RectifiedMistakeInMovie.resx">
+      <DependentUpon>202102070750150_RectifiedMistakeInMovie.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202102070826319_PopulateMovie.resx">
+      <DependentUpon>202102070826319_PopulateMovie.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
