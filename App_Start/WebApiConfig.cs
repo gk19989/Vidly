@@ -9,6 +9,7 @@ namespace Vidly
     {
         public static void Register(HttpConfiguration config)
         {
+           
             config.MapHttpAttributeRoutes();
 
             config.Routes.MapHttpRoute(
