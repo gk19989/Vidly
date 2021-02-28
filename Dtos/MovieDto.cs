@@ -21,7 +21,7 @@ namespace Vidly.Dtos
 
         public DateTime ReleaseDate { get; set; }
 
-        [Range(1, 20)]
-        public byte NumberInStock { get; set; }
+        //In API this is causing error check later [Range(1,20)]
+        public int NumberInStock { get; set; }
     }
 }

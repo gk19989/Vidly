@@ -14,12 +14,13 @@ namespace Vidly.Models
         
         public DateTime DateAdded { get; set; }
         [Display(Name = "Number in Stock")]
-        [Range(1,20)]
+        //In API this is causing error check later [Range(1,20)]
         public int NumberInStocks { get; set; }
         
         public Genre Genre { get; set; }
         
         [Display(Name = "Genre")]
+        [Required]
         public int GenreId { get; set; }
     }
 }
