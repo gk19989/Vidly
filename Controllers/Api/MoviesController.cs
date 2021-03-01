@@ -55,9 +55,9 @@ namespace Vidly.Controllers.Api
         {
             if (!ModelState.IsValid)
                 return BadRequest();
-            
+
             var movieInDb = _context.Movies.SingleOrDefault(m => m.Id == id);
-            
+
             if (movieInDb == null)
                 return NotFound();
 

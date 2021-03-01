@@ -39,9 +39,13 @@ namespace Vidly.ViewModels
         [Display(Name = "Genre")]
         [Required]
         public int? GenreId { get; set; }
-        public string Title { get {
+        public string Title
+        {
+            get
+            {
                 return Id != 0 ? "Edit Movie" : "New Movie";
-            } }
+            }
+        }
 
         public Movie Movie { get; }
     }
