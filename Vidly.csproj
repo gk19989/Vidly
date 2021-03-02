@@ -265,6 +265,10 @@
     <Compile Include="Migrations\202103021359359_AddedRentalAssociationClass.Designer.cs">
       <DependentUpon>202103021359359_AddedRentalAssociationClass.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202103021425120_AddedNumberAvailableToMovie.cs" />
+    <Compile Include="Migrations\202103021425120_AddedNumberAvailableToMovie.Designer.cs">
+      <DependentUpon>202103021425120_AddedNumberAvailableToMovie.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\Customer.cs" />
@@ -577,6 +581,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202103021359359_AddedRentalAssociationClass.resx">
       <DependentUpon>202103021359359_AddedRentalAssociationClass.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202103021425120_AddedNumberAvailableToMovie.resx">
+      <DependentUpon>202103021425120_AddedNumberAvailableToMovie.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
