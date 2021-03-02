@@ -261,6 +261,10 @@
     <Compile Include="Migrations\202103020541355_AddedPhoneToApplicationUser.Designer.cs">
       <DependentUpon>202103020541355_AddedPhoneToApplicationUser.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202103021359359_AddedRentalAssociationClass.cs" />
+    <Compile Include="Migrations\202103021359359_AddedRentalAssociationClass.Designer.cs">
+      <DependentUpon>202103021359359_AddedRentalAssociationClass.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\Customer.cs" />
@@ -270,6 +274,7 @@
     <Compile Include="Models\MembershipType.cs" />
     <Compile Include="Models\Min18YearsIfAmember.cs" />
     <Compile Include="Models\Movie.cs" />
+    <Compile Include="Models\Rental.cs" />
     <Compile Include="Models\RoleName.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Startup.cs" />
@@ -569,6 +574,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202103020541355_AddedPhoneToApplicationUser.resx">
       <DependentUpon>202103020541355_AddedPhoneToApplicationUser.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202103021359359_AddedRentalAssociationClass.resx">
+      <DependentUpon>202103021359359_AddedRentalAssociationClass.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
