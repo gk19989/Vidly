@@ -24,5 +24,7 @@ namespace Vidly.Dtos
 
         //In API this is causing error check later [Range(1,20)]
         public int NumberInStock { get; set; }
+        
+        public byte NumberAvailable { get; set; }
     }
 }
